@@ -1,0 +1,90 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#head{
+  padding: 20px;
+  text-align: center;
+  background: navy;
+  color: white;
+}
+
+#main{
+  box-shadow: 3px 5px 10px 3px rgba(0, 0, 0, 0.3), 4px 7px 21px 4px rgba(0, 0, 0, 0.20);
+  height:200px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 50px;
+  border-radius:10px;
+  padding-top:24px;
+}
+
+#content1{
+  display:grid;
+  grid-template-columns: 50% 50%;
+  padding: 10px;
+}
+
+#content1-1{
+  padding: 25px;
+  width:100px;
+  text-align: center;
+}
+
+#content1-2{
+  padding: 25px;
+  width:100px;
+  text-align: center;
+}
+
+#UNIT-from{
+  margin-bottom: 20px;
+  height: 45px;
+  background: navy;
+  color: white;
+  border: solid 1px navy;
+  border-radius:5px;
+}
+
+#UNIT-to{
+  margin-bottom: 20px;
+  height: 45px;
+  background: navy;
+  color: white;
+  border: solid 1px navy;
+  border-radius:5px;
+}
+
+#Input-from{
+  width: 100px;
+  height: 30px;
+  border:solid 1px navy;
+  border-radius:5px;
+  outline: none;
+  text-align:center;
+}
+
+#content2{
+  text-align: center;
+}
+
+#convert{
+  margin-top: 20px;
+  height: 35px;
+  width: 100px;
+  background: navy;
+  border: solid 1px navy;
+  border-radius:5px;
+  color: white;
+}
+
+#result{
+  display: inline-block;
+  padding: 10px;
+  background: navy;
+  font-size:20px;
+  color: white;
+  border-radius:10px;
+}
